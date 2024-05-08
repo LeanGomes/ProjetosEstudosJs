@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Arquivo por Email</title>
+</head>
+<body>
+    <h2>Enviar Arquivo</h2>
+    <form action="/enviar-arquivo" method="post" enctype="multipart/form-data">
+        <label for="arquivo">Selecione o Arquivo (PDF ou Word):</label><br>
+        <input type="file" id="arquivo" name="arquivo" accept=".pdf,.doc,.docx"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
